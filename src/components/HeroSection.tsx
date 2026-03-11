@@ -21,14 +21,12 @@ const HeroSection = () => {
         <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
           Custom-built mobile kitchens from Poland. Delivered anywhere in Europe. Ready to work.
         </p>
-        <button
-          data-cal-link="yourfoodtruck/30min"
-          data-cal-namespace="30min"
-          data-cal-config='{"layout":"week_view"}'
+        <a
+          href="#contact"
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-display font-semibold px-8 py-4 rounded-lg text-lg hover:opacity-90 transition-opacity"
         >
           Book a Call
-        </button>
+        </a>
       </div>
 
       {/* Scroll indicator */}

@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const HeroSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* YouTube Video Background */}
@@ -16,10 +20,10 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="section-divider mx-auto mb-8" />
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          We Build <span className="text-gradient">Food Trucks</span>
+          {t("hero.title1")}<span className="text-gradient">{t("hero.titleHighlight")}</span>
         </h1>
         <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          Custom-built mobile kitchens from Poland. Delivered anywhere in Europe. Ready to work.
+          {t("hero.subtitle")}
         </p>
         <button
           data-cal-link="yourfoodtruck/30min"
@@ -27,7 +31,7 @@ const HeroSection = () => {
           data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-display font-semibold px-8 py-4 rounded-lg text-lg hover:opacity-90 transition-opacity"
         >
-          Book a Call
+          {t("hero.cta")}
         </button>
       </div>
 

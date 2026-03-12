@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <main className="min-h-screen">
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center py-4">
-        <img alt="Your Food Truck" className="h-12 md:h-16" src="/lovable-uploads/447cfde4-08d7-49ec-bc45-0d2eb5b714d3.png" />
+        <img alt="Your Food Truck" className="h-12 md:h-16" src="/lovable-uploads/b602524e-35e3-499e-a5b8-674d6f6bf037.png" />
         <div className="absolute right-4">
           <LanguageSwitcher />
         </div>

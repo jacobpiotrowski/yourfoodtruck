@@ -32,11 +32,11 @@ const GallerySection = () => {
           <h2 className="font-display text-4xl md:text-5xl font-bold">{t("gallery.title")}</h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
           {images.map((img, i) => (
             <div
               key={i}
-              className={`overflow-hidden rounded-lg ${i === 0 || i === 3 ? "row-span-2" : ""}`}
+              className={`overflow-hidden rounded-lg ${i === 0 || i === 3 ? "md:row-span-2" : ""}`}
             >
               <img
                 src={img.src}

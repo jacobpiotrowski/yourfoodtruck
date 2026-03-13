@@ -32,7 +32,7 @@ const GallerySection = () => {
           <h2 className="font-display text-4xl md:text-5xl font-bold">{t("gallery.title")}</h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
           {images.map((img, i) => (
             <div
               key={i}

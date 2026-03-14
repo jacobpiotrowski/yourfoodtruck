@@ -28,6 +28,30 @@ export default {
       },
     ],
   },
+  rental: {
+    label: "Mietservice",
+    title: "Food Truck mieten",
+    subtitle: "Noch nicht bereit zu kaufen? Kein Problem. Wir bieten voll ausgestattete Food Trucks zur Langzeitmiete an — ab 3 Monaten. Perfekt, um Ihr Konzept zu testen, eine Saison abzudecken oder auf Festivals durchzustarten — ohne hohe Anfangsinvestition.",
+    benefits: [
+      {
+        title: "Flexible Laufzeiten",
+        description: "Mieten Sie ab 3 Monaten bis zu einem Jahr oder länger. Passen Sie sich flexibel an Ihr Geschäft an.",
+      },
+      {
+        title: "Voll ausgestattet",
+        description: "Jeder Miet-Truck kommt einsatzbereit — Küchenausstattung, Gas-, Strom- und Wassersysteme inklusive.",
+      },
+      {
+        title: "Konzept testen",
+        description: "Validieren Sie Ihre Geschäftsidee, bevor Sie sich für einen individuellen Bau entscheiden. Weniger Risiko, echte Ergebnisse.",
+      },
+      {
+        title: "Festivals & Saisons",
+        description: "Ideal für Sommersaisons, Weihnachtsmärkte, Musikfestivals und andere temporäre Gelegenheiten.",
+      },
+    ],
+    cta: "Mietanfrage stellen",
+  },
   gallery: {
     label: "Unsere Arbeit",
     title: "Mit Präzision gebaut",

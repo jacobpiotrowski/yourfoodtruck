@@ -28,6 +28,30 @@ export default {
       },
     ],
   },
+  rental: {
+    label: "Rental Service",
+    title: "Rent a Food Truck",
+    subtitle: "Not ready to buy? No problem. We offer fully equipped food trucks for long-term rental — 3 months or longer. Perfect for testing your concept, covering a busy season, or launching at festivals without the upfront investment.",
+    benefits: [
+      {
+        title: "Flexible Periods",
+        description: "Rent from 3 months up to a year or more. Scale up or down as your business evolves.",
+      },
+      {
+        title: "Fully Equipped",
+        description: "Every rental truck comes ready to work — kitchen equipment, gas, electric, and water systems included.",
+      },
+      {
+        title: "Test Your Concept",
+        description: "Validate your food business idea before committing to a custom build. Lower risk, real results.",
+      },
+      {
+        title: "Festivals & Seasons",
+        description: "Ideal for summer seasons, Christmas markets, music festivals, and other temporary opportunities.",
+      },
+    ],
+    cta: "Inquire About Rental",
+  },
   gallery: {
     label: "Our Work",
     title: "Built With Precision",

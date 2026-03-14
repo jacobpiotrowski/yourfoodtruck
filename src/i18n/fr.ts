@@ -28,6 +28,30 @@ export default {
       },
     ],
   },
+  rental: {
+    label: "Service de location",
+    title: "Louez un Food Truck",
+    subtitle: "Pas encore prêt à acheter ? Pas de problème. Nous proposons des food trucks entièrement équipés en location longue durée — à partir de 3 mois. Idéal pour tester votre concept, couvrir une saison chargée ou vous lancer dans les festivals sans investissement initial.",
+    benefits: [
+      {
+        title: "Durées flexibles",
+        description: "Louez de 3 mois à un an ou plus. Adaptez-vous à l'évolution de votre activité.",
+      },
+      {
+        title: "Entièrement équipé",
+        description: "Chaque camion de location arrive prêt à fonctionner — équipement de cuisine, gaz, électricité et eau inclus.",
+      },
+      {
+        title: "Testez votre concept",
+        description: "Validez votre idée de business avant de vous engager dans une construction sur mesure. Moins de risques, des résultats concrets.",
+      },
+      {
+        title: "Festivals & Saisons",
+        description: "Idéal pour les saisons estivales, les marchés de Noël, les festivals de musique et autres opportunités temporaires.",
+      },
+    ],
+    cta: "Demander un devis location",
+  },
   gallery: {
     label: "Nos réalisations",
     title: "Construit avec précision",

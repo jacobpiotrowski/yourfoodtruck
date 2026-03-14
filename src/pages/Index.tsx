@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
+import RentalSection from "@/components/RentalSection";
 import GallerySection from "@/components/GallerySection";
 import WhyUsSection from "@/components/WhyUsSection";
 import CTASection from "@/components/CTASection";
@@ -26,7 +27,6 @@ const Index = () => {
       <CTASection />
       <Footer />
     </main>);
-
 };
 
 export default Index;

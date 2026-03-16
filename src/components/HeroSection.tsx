@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* YouTube Video Background */}
       <div className="absolute inset-0 z-0">
         <iframe
-          src="https://www.youtube.com/embed/i-mpPrmTcJI?autoplay=1&mute=1&loop=1&playlist=i-mpPrmTcJI&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1"
+          src="https://www.youtube-nocookie.com/embed/i-mpPrmTcJI?autoplay=1&mute=1&loop=1&playlist=i-mpPrmTcJI&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1&disablekb=1"
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200vw] h-[200vh] min-w-full min-h-full pointer-events-none"
           allow="autoplay; encrypted-media"
           allowFullScreen

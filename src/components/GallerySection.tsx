@@ -36,7 +36,7 @@ const GallerySection = () => {
           {images.map((img, i) => (
             <div
               key={i}
-              className={`overflow-hidden rounded-lg ${i === 0 || i === 3 ? "md:row-span-2" : ""}`}
+              className={`overflow-hidden rounded-lg ${i === 0 || i === 2 ? "md:row-span-2" : ""}`}
             >
               <img
                 src={img.src}

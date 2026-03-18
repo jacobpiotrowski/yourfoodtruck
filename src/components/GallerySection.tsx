@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import truckYellow from "@/assets/truck-yellow.jpg";
+
 import truckDark from "@/assets/truck-dark.jpg";
 import truckSilver from "@/assets/truck-silver.jpg";
 import truckWhite from "@/assets/truck-white.jpg";

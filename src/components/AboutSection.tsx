@@ -23,7 +23,7 @@ const AboutSection = () => {
               alt="Custom food truck render"
               className="rounded-lg w-full object-cover aspect-video"
             />
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 border-2 border-primary rounded-lg" />
+            
           </div>
         </div>
       </div>

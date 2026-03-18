@@ -10,7 +10,7 @@ import interiorStainless from "@/assets/interior-stainless.jpg";
 import interiorModern from "@/assets/interior-modern.jpg";
 
 const images = [
-  { src: truckYellow, alt: "Yellow food truck exterior" },
+  
   { src: interiorWood, alt: "Wood-finished interior with pizza oven" },
   { src: truckDark, alt: "Dark grey food truck" },
   { src: interiorPizza, alt: "Interior with red pizza oven" },

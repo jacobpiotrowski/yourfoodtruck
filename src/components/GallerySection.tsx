@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import truckYellow from "@/assets/truck-yellow.jpg";
+
 import truckDark from "@/assets/truck-dark.jpg";
 import truckSilver from "@/assets/truck-silver.jpg";
 import truckWhite from "@/assets/truck-white.jpg";
@@ -10,7 +10,7 @@ import interiorStainless from "@/assets/interior-stainless.jpg";
 import interiorModern from "@/assets/interior-modern.jpg";
 
 const images = [
-  { src: truckYellow, alt: "Yellow food truck exterior" },
+  
   { src: interiorWood, alt: "Wood-finished interior with pizza oven" },
   { src: truckDark, alt: "Dark grey food truck" },
   { src: interiorPizza, alt: "Interior with red pizza oven" },
@@ -36,7 +36,7 @@ const GallerySection = () => {
           {images.map((img, i) => (
             <div
               key={i}
-              className={`overflow-hidden rounded-lg ${i === 0 || i === 3 ? "md:row-span-2" : ""}`}
+              className={`overflow-hidden rounded-lg ${i === 0 || i === 2 ? "md:row-span-2" : ""}`}
             >
               <img
                 src={img.src}

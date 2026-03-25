@@ -7,7 +7,7 @@ import WhyUsSection from "@/components/WhyUsSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
-import logo from "@/assets/yfl-logo-white.png";
+
 
 const Index = () => {
   return (
